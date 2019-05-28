@@ -287,7 +287,7 @@ public class mainClass extends JFrame{
         HashMap<Integer, HashMap<LinkedList<Integer>, Pair<double[], int[]>>> keysCdfs = createCDFS(keyCounts,startN);
         LinkedList<Integer> justASample = new LinkedList<>(); justASample.add(48);justASample.add(48);justASample.add(48);justASample.add(48);
 
-        int noOfNotes = 100;
+        int noOfNotes = 110;
         int sizeOfPattern = patternsize;
         ArrayList<Integer> noteLengths = createPiece(rythmsCdfs,noOfNotes,sizeOfPattern);
         ArrayList<Integer> keys = createPiece(keysCdfs,noOfNotes,sizeOfPattern);
